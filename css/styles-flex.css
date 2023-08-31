@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    
+
+& .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(192, 234, 238);
+        padding: 10px 20px;
+    & ul{
+        padding: 0;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        & li {
+            margin-right: 20px;
+            & a{
+                text-decoration: none;
+                text-decoration: none;
+                font-size: 17px;
+                font-weight: 600;
+                color: black;
+                padding: 5px 10px;
+                transition: backgrond-color 0.3s;
+                &:hover{
+                    border-radius: 40%;
+                    background-color: rgb(109, 228, 255);
+                    color:#f5f5f5;
+                }
+                &:active{
+                    font-weight: 700;
+                    color: aqua;
+                    &::after{
+                        background-color: #f5f5f5;
+                    }
+                }
+            }
+        }
+    }
+    & img{
+        width: auto;
+        max-height: 70px;
+        margin: 0 20px;
+    }
+        .avatar-container{
+            display: flex;
+            align-items: center;
+            & img.avatar{
+                margin-right: 20px;
+                max-width: 60px;
+                height: auto;
+                border-radius: 50%;
+                border: #f5f5f5 solid 2px;
+            }
+        }
+
+    
+}
+& .content{
+    margin: 10px 20px;
+    padding: 0 10px;
+}
+}
+
+.large{
+    display: flex;
+    background-color: #5bd6e1;
+    height: 40px;
+}
+.twin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.ta{
+    width: 100%;
+    height: 40px;
+    background-color: #1585cb;
+}
+.tb{
+    width: 100%;
+    height: 40px;
+    background-color: #0d6fab;
+}
+
+.tres{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.tresa{
+    width: 100%;
+    height: 40px;
+    background-color: #0b16b0;
+}
+.tresb{
+    width: 100%;
+    height: 40px;
+    background-color: #470dab;
+}
+.tresc{
+    width: 100%;
+    height: 40px;
+    background-color: #5f0dab;
+}
+.weirdContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 120px;
+}
+.sidea{
+    width: 34.9%;
+    height: 100%;
+}
+.sideaContent{
+    background-color: #b00b9f;
+    width: 100%;
+    height: 100%;
+}
+.sideb{
+    width: 70%;
+    height: 100%;
+
+}
+.sidebContent{
+    width: 100%;
+    height: 100%;
+}
